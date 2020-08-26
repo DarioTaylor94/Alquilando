@@ -1,0 +1,33 @@
+html{
+	font-family: Roboto;
+	font-weight: 100px;
+	max-height: 950px;
+}
+
+#grilla {
+	display: grid;
+	grid-template-areas:
+     "header header"
+     "section aside"
+     "footer footer ";
+	grid-template-rows: 200px 480px 100px; 
+	grid-template-columns: repeat(2,50%);
+	grid-row-gap: 20px;
+	grid-column-gap: 20px;
+}
+
+header {
+	grid-area: header;
+}
+
+footer {
+	grid-area: footer;
+}
+
+section.cuerpoindex {
+	grid-area: section;     
+}
+
+aside {
+	grid-area: aside;
+}

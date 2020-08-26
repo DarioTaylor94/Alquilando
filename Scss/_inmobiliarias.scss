@@ -1,0 +1,43 @@
+$padding: 30px;
+$color1: #5c8c3e;
+$colorHover: #3c6948;
+$fuente1: 'Roboto', 25px;
+
+table {
+	width: 100%;
+	margin-left: 40px
+}
+
+thead{
+	border-bottom: solid 3px black
+}
+
+tr:nth-child(even){
+	background-color: #ddd
+}
+
+.tabla__encabezado {
+	font-family: $fuente1;
+	font-size: 26px;
+	font-weight: bold;
+	background: #387512 ;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.tabla__contenido {
+	font-family: $fuente1;
+	font-size: 20px;
+	padding-top: $padding/3;
+	padding-bottom: $padding/3;
+}
+
+.mageninmobiliria {
+	width: 200px;
+	height: 200px;
+}
+
+.tabla{
+	width: 80%;
+}

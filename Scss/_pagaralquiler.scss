@@ -1,0 +1,18 @@
+$padding: 30px;
+$color1: #5c8c3e;
+$colorHover: #3c6948;
+$fuente1: 'Roboto', 25px;
+
+@mixin button {
+	display: inline-block;
+	text-decoration: none;
+	padding: .5em 1em;
+}
+
+.pagaralquiler {
+	margin-left: 50px
+}
+
+.inputwidht {
+	width: 80%;
+}

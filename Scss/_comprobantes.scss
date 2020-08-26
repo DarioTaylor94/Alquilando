@@ -1,0 +1,17 @@
+$padding: 30px;
+$color1: #5c8c3e;
+$colorHover: #3c6948;
+$fuente1: 'Roboto', 25px;
+
+.asideComp {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.asideComp__img {
+	width: 450px;
+	height: 350px;
+	padding-top: $padding*2;
+	margin-bottom: 70px;
+}

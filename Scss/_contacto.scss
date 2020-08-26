@@ -1,0 +1,51 @@
+$padding: 30px;
+$color1: #5c8c3e;
+$colorHover: #3c6948;
+$fuente1: 'Roboto', 25px;
+
+@mixin button {
+	display: inline-block;
+	text-decoration: none;
+	padding: .5em 1em;
+}
+
+.contacto {
+	margin-left: 50px;
+}
+
+.asidecontacto {
+   padding-top: 60px;
+}
+
+.inputcontacto {
+   width: 150px; 
+   height: 150px;
+   transition: all 2s;       
+}
+
+.inputcontacto:focus {
+   width: 700px;
+   height: 300px;
+   font-size: 24px;
+   background-color: #dee3df;
+}
+
+.boton {
+	@include button
+}
+
+.input__cont {
+   display: block;
+    width: 80%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

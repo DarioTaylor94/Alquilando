@@ -1,0 +1,94 @@
+$padding: 30px;
+$color1: #5c8c3e;
+$color2:#637064;
+$colorHover: #3c6948;
+$fuente1: 'Roboto', 25px;
+
+ .asideindex{
+	margin-top: 50px
+}
+
+.asideindex__img {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-content: center;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.tituloseccion{
+	display: inline-block;
+	font-family: $fuente1;
+	color: #5c8c3e; 
+	font-style: italic;
+	font-size:40px;
+	text-decoration: underline;
+	margin: 50px;
+
+}
+
+.cuerpoindex__imgcajaparrafoindex {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	background-color: #bbbfbc;
+	border: 20px solid #bbbfbc;
+	
+}
+
+.parrafoindex {
+	color: black;
+	padding: 15px;
+	font-weight: 50px;
+}
+
+.imagenindex {
+	width: 450px;
+	height: 450px;
+	justify-content: center;
+	margin-top: 20px;
+
+}
+
+
+.tituloennegrtia {
+	font-family: roboto;
+	font-weight: bold;
+}
+
+.pasos {
+	margin-bottom: 10px;
+	width: 70%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+
+.pasoscaja {
+	width: 70%
+}
+
+.pasos__linea {
+	background-color: $color2;
+	color: white;
+	font-size: 40px;
+	font-family: 'Nothing You Could Do', cursive;
+}
+
+.pasos__medio {
+	background-color: $color2;
+	color: white;
+	font-size: 25px;
+	font-family: 'Nothing You Could Do', cursive;
+}
+
+.pasos__img {
+	width: 40px;
+	height: 40px;
+}
