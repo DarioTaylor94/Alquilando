@@ -120,18 +120,18 @@ nav ul li {
   display: inline-block;
   font-family: 'Barlow Condensed', sans-serif;
   color: white;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   text-decoration: underline;
   padding-bottom: 30px; 
   padding-top: 30px;
-  margin-top: 215px;
+  margin-top: 220px;
   text-align: center;
   font-weight: bold; }
 
 .tituloparrafo {
   display: inline-block;
   font-family: 'Barlow Condensed', sans-serif;
-  color: white;
+  color: black;
   font-size: 2.5rem;
   text-decoration: underline;
   padding-bottom: 30px; 
@@ -140,21 +140,21 @@ nav ul li {
   text-align: center; 
 }
 .indexColor {
-  background-color: #755d5d;
+  background-color: white;
   border: 1px solid #755d5d;
   border-radius: 12px;
 }
 
 .parrafoindex {
   color: black;
-  padding: 45px;
-  font-size: 25px; }
+  padding: 25px;
+  font-size: 1.5rem; }
 
 .imagenindex {
   width: 550px;
   height: 550px;
   justify-content: center;
-  margin: 100px; }
+  margin: 80px; }
 
 
 .pasos__caja {
@@ -167,7 +167,7 @@ nav ul li {
 
 .pasos__medio {
   color: white;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: 'Barlow Condensed', sans-serif; }
 
 
