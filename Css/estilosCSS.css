@@ -272,3 +272,8 @@ tr:nth-child(even) {
   padding-bottom: calc(.375rem + 1px);
   margin-bottom: 0;
   line-height: 1.5; }
+
+.form-check-label-1 {
+     position: absolute;
+    margin-top: 1.1rem;
+  margin-left: -1.25rem; }
